@@ -1,5 +1,3 @@
-import React from "react";
-
 export const ChatbotIcon = (props: any) => (
   <svg
     width={120}

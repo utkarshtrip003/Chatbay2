@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Chatbot from "./Chatbot";
 import ChatbayLandingPage from "./components/Chatbay";
-import React from "react";
 
 function App() {
   return (
