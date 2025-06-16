@@ -1,3 +1,6 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "rewrites": [
+    { "source": "/downloads/workerhub.apk", "destination": "/api/download" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
