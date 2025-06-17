@@ -74,7 +74,7 @@ const WorkerHubLanding: React.FC = () => {
           </div>
 
           {/* Features Grid */}
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 transform hover:scale-105 transition duration-300">
               <div className="w-12 h-12 bg-blue-400 rounded-lg flex items-center justify-center mb-4">
                 <svg
@@ -143,22 +143,6 @@ const WorkerHubLanding: React.FC = () => {
               <p className="text-blue-100">
                 Build relationships with employers and fellow workers
               </p>
-            </div>
-          </div>
-
-          {/* Stats Section */}
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6">
-              <div className="text-4xl font-bold text-white mb-2">10K+</div>
-              <div className="text-blue-200">Active Users</div>
-            </div>
-            <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6">
-              <div className="text-4xl font-bold text-white mb-2">5K+</div>
-              <div className="text-blue-200">Job Listings</div>
-            </div>
-            <div className="bg-white/5 backdrop-blur-lg rounded-xl p-6">
-              <div className="text-4xl font-bold text-white mb-2">98%</div>
-              <div className="text-blue-200">Success Rate</div>
             </div>
           </div>
         </div>
