@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const WorkerHubLanding: React.FC = () => {
   const handleDownload = () => {
@@ -14,33 +13,8 @@ const WorkerHubLanding: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800">
-      {/* Navigation */}
-      <nav className="absolute top-0 left-0 right-0 z-10">
-        <div className="container mx-auto px-6 py-4">
-          <Link
-            to="/"
-            className="text-white hover:text-blue-100 flex items-center space-x-2"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M10 19l-7-7m0 0l7-7m-7 7h18"
-              />
-            </svg>
-            <span>Back to Chatbay</span>
-          </Link>
-        </div>
-      </nav>
-
       {/* Main Content */}
-      <div className="container mx-auto px-6 pt-24 pb-12">
+      <div className="container mx-auto px-6 pt-12 pb-12">
         <div className="max-w-4xl mx-auto">
           {/* Hero Section */}
           <div className="text-center mb-16">
