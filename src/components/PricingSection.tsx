@@ -20,7 +20,7 @@ const PricingSection: React.FC = () => {
           {[
             {
               name: "Starter",
-              price: "$49",
+              price: "₹2000",
               features: [
                 "Up to 1,000 conversations/month",
                 "Basic AI Training",
@@ -28,7 +28,7 @@ const PricingSection: React.FC = () => {
             },
             {
               name: "Professional",
-              price: "$99",
+              price: "₹5000",
               features: [
                 "Up to 5,000 conversations/month",
                 "Advanced AI Training",
